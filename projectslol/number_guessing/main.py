@@ -73,7 +73,7 @@ def working():
 
     return (name,difficulty,time_elapsed,attempts,)
 
-
+#Update file
 def game():
     data=working()
     with open ("scores.txt","a") as ofile:
